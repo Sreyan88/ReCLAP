@@ -1,0 +1,15 @@
+beach
+bus
+cafe/restaurant
+car
+city_center
+forest_path
+grocery_store
+home
+library
+metro_station
+office
+park
+residential_area
+train
+tram

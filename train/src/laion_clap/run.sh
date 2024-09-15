@@ -26,7 +26,7 @@ export WORLD_SIZE=8
 
 
 
-OMP_NUM_THREADS=20 torchrun --nnodes=1 --nproc_per_node 4 --master_addr=localhost --master_port=2120 -m training.main \
+OMP_NUM_THREADS=20 torchrun --nnodes=1 --nproc_per_node 8 --master_addr=localhost --master_port=2120 -m training.main \
     --name "testing" \
     --save-frequency 2 \
     --save-top-performance 3 \
@@ -44,8 +44,8 @@ OMP_NUM_THREADS=20 torchrun --nnodes=1 --nproc_per_node 4 --master_addr=localhos
     --warmup 3200 \
     --report-to "wandb" \
     --wandb-notes "test" \
-    --train-data /fs/nexus-projects/brain_project/aaai_2025/icassp_2025/icassp_rewrite/rewritten.csv \
-    --val-data /fs/nexus-projects/brain_project/naacl_audio/val.csv  \
+    --train-data /path/to/rewritten.csv \
+    --val-data /path/to/val.csv  \
     --top-k-checkpoint-select-dataset="Clotho-test" \
     --top-k-checkpoint-select-metric="mAP@10" \
     --openai-model-cache-dir ./cache \
@@ -57,4 +57,4 @@ OMP_NUM_THREADS=20 torchrun --nnodes=1 --nproc_per_node 4 --master_addr=localhos
     --data-truncating "fusion" \
     --enable-fusion \
     --fusion-type "aff_2d" \
-    --pretrained-audio /fs/nexus-projects/brain_project/CLAP/htsat_base_zaratan.ckpt
+    --pretrained-audio /path/to/HTSAT-base.pth \
