@@ -1,7 +1,7 @@
 #!/bin/bash
 # set -x
 
-export HF_TOKEN='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'
+export HF_TOKEN='hf_key'
 export HF_HOME=/fs/nexus-projects/brain_project/microsoft/cache
 
 gpu_count=$(nvidia-smi --query-gpu=name --format=csv,noheader | wc -l)
