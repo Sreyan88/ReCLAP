@@ -1,5 +1,6 @@
 # **ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds**
 <p align="center"><img src="https://github.com/Sreyan88/ReCLAP/blob/main/assets/reclap.png" alt="GAMA Logo." width="300"/></p>
+
 This is the official implementation of our paper [ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds](https://arxiv.org/abs/2406.11768).
 
 
