@@ -18,12 +18,17 @@ pip install -r requirements.txt
 
 ### Training 🏃‍♂️
 Update the path to training csv (--train-data) validation csv (--val-data) and pretrained HTSAT checkpoint (--pretrained-audio) in `run.sh` file.
+The csvs can be downloaded from [ReCLAP's Google Drive](https://drive.google.com/drive/folders/1ZUf3HNo8wO2Ec6_cfQ0nc1fUknkHSP9e?usp=sharing).
+
 To run the training:
 
 ```
 cd ReCLAP/train/src/laion_clap
 sh run.sh
 ```
+
+The checkpoint for CLAP 2.3M (tiny) and ReCLAP Base can be donwloaded from [ReCLAP's Google Drive](https://drive.google.com/drive/folders/1ZUf3HNo8wO2Ec6_cfQ0nc1fUknkHSP9e?usp=sharing).
+The CLAP 2.3M (base) will be uploaded soon.
 ### Prompt Augmentations
 More details on prompt augemntation can be found in [`prompts`](https://github.com/Sreyan88/ReCLAP/tree/main/prompts).
 
