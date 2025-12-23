@@ -4,7 +4,8 @@
 This is the official implementation of our paper [ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds](https://arxiv.org/abs/2409.09213).
 
 
-Training data, and checkpoints can be downloaded from [ReCLAP's Google Drive](https://drive.google.com/drive/folders/1ZUf3HNo8wO2Ec6_cfQ0nc1fUknkHSP9e?usp=sharing).
+Training data can be dowloaded from [ReCLAP's Google Drive](https://drive.google.com/drive/folders/1ZUf3HNo8wO2Ec6_cfQ0nc1fUknkHSP9e?usp=sharing).
+Model checkopoint can be dowloaded from [here](https://drive.google.com/file/d/1M3-jScQQ3udAuzCoYxJ9xenD7XWGJ6hc/view?usp=sharing).
 
 ---
 
@@ -27,8 +28,6 @@ cd ReCLAP/train/src/laion_clap
 sh run.sh
 ```
 
-The checkpoint for CLAP 2.3M (tiny) and ReCLAP Base can be donwloaded from [ReCLAP's Google Drive](https://drive.google.com/drive/folders/1ZUf3HNo8wO2Ec6_cfQ0nc1fUknkHSP9e?usp=sharing).
-The CLAP 2.3M (base) will be uploaded soon.
 ### Prompt Augmentations
 More details on prompt augemntation can be found in [`prompts`](https://github.com/Sreyan88/ReCLAP/tree/main/prompts).
 
